@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+}
+
+#root {
+    margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #root {
+        display: grid;
+        min-height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto 1fr auto;
+        margin: 0 auto;
+        width: 40%;
+    }
+}
