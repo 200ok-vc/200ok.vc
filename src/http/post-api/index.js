@@ -19,9 +19,10 @@ let handler = async function (req) {
     // store a record in our DB
     await data.set({ table: 'messages', key: req.body.email, ...req.body })
     // ping Slack
-    const params = new URLSearchParams()
-    params.append('text', `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }`)
-    await fetch(process.env.SLACK_WEBHOOK_URL, {method: 'POST', body: params})
+    let message = {
+      text: `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }`
+    }
+    await fetch(process.env.SLACK_WEBHOOK_URL, {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(message)})
     res = {
       statusCode: 200,
       json: {
