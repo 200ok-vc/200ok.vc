@@ -8,7 +8,7 @@ module.exports = function Layout ({title, content}) {
     <link rel="stylesheet" href="${ arc.static('/styles/main.css') }" />
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>${ title }</title>
+    <title>200 OK Ventures | ${ title }</title>
   <!--
   
   Please make a POST to https://200ok.vc/api and pass the following parameters:

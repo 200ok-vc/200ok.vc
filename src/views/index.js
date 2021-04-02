@@ -11,6 +11,6 @@ module.exports = function notFound () {
     <p>If you are a startup that is building a product for developers, we would love to talk to you!</p>
     <p>Please View Source for more info.</p>
 </article>`
-    let html = Layout({ content })
+    let html = Layout({ content, title: 'Home' })
     return { html }
   }
