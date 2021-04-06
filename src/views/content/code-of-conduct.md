@@ -34,6 +34,6 @@ We keep all information about other members and their opinions strictly confiden
 
 Finally, we put developers first.
 
-For the benefit of founders: we do not permit members to be promote their services, scount for investment firms or function as professional startup advisors.
+For the benefit of founders: we do not permit members to be promote their services, scout for investment firms or function as professional startup advisors.
 
 For the benefit of the developer community: we only engage with startups and founders who respect developers and engage in ethical practices.
