@@ -1,3 +1,4 @@
 node_modules
 .arc-env
 .env
+src/shared/static.json
