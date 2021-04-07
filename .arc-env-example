@@ -1,7 +1,4 @@
 # .arc-env
 @testing
 SLACK_WEBHOOK_URL http://localhost:3333/api
-AIRTABLE_APP_ID xxx
-AIRTABLE_APP_KEY yyy
-
 

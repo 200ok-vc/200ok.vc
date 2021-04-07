@@ -6,6 +6,25 @@ body {
     margin: 10px;
 }
 
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.member {
+    padding: 8px;
+}
+
+.member-photo {
+    height: 125px;
+    width: 125px;
+    background-size: cover;
+    background-blend-mode:screen;
+    filter: grayscale(100%);
+}
+
 @media only screen and (min-width: 768px) {
 
     #root {
