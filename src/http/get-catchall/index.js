@@ -4,6 +4,7 @@ let MemberView = require('@architect/views/member')
 let PageView = require('@architect/views/pages')
 let NotFoundView = require('@architect/views/404')
 let memberData = require('@architect/shared/data/members.json')
+let skillData = require('@architect/shared/data/skills.json')
 
 function getMember(path) {
   return memberData.find((m) => m.slug === path.substring(1))
@@ -16,7 +17,7 @@ function getMember(path) {
  */
 async function Index (req) {
   if (req.rawPath === '/') {
-      return await IndexView({ memberData })
+      return await IndexView({ memberData, skillData })
   }
   else if (getMember(req.rawPath)) {
     return await MemberView({ member: getMember(req.rawPath) })

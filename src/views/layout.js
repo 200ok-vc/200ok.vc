@@ -9,21 +9,6 @@ module.exports = function Layout ({title, content}) {
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>200 OK Ventures | ${ title }</title>
-  <!--
-  
-  Please make a POST to https://200ok.vc/api and pass the following parameters:
-  
-  name | string | your full name
-  email | string | a valid email address
-  startup | string | the name of your startup
-  
-  We will be in touch!
-  
-  P.S.
-  
-  The code for this web app is open-source and can be found at: https://github.com/200ok-vc/200ok.vc
-  
-  -->
   </head>
   <body>
     <div id="root">

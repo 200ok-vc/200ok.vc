@@ -8,9 +8,10 @@ let appKey = process.env.AIRTABLE_APP_KEY
 let baseUrl = `https://api.airtable.com/v0/${ appId }`
 
 async function fetchSkills() {
-    let json = await fetch(`${ baseUrl }/Skills?view=Grid%20view`, { headers: {'Authorization': `Bearer ${ appKey }`}})
+    let fields = ['Name']
+    let json = await fetch(`${ baseUrl }/Skills?view=Grid%20view${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
     let results = await json.json()
-    return results.records
+    return results.records.map((r) => ( { id: r.id, name: r.fields.Name } ))
 }
 
 /*async getStartups() {
@@ -18,8 +19,7 @@ async function fetchSkills() {
 
 }*/
 
-async function fetchMembers() {
-    let skills = await fetchSkills()
+async function fetchMembers({ skills }) {
     let fields = ['Full Name', 'Short Bio', 'Photo', 'Super Powers', 'Website']
     let json = await fetch(`${ baseUrl }/Members?view=Grid%20view${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
     let results = await json.json()
@@ -30,10 +30,20 @@ async function fetchMembers() {
         photo: r.fields['Photo'][0].thumbnails.large.url,
         super_powers: r.fields['Super Powers']
             .map((id) => skills.find((s) => s.id === id)) // grab the skill objects that match the ids
-            .map((s) => s.fields.Name), // grab the Name
+            .map((s) => s.name), // grab the Name
         website: r.fields['Website']
     } })
+    return members;
+}
+
+async function init() {
+    // get skill & member data from Airtable
+    let skills = await fetchSkills()
+    let members = await fetchMembers({ skills })
+    // write these bits to JSON
+    fs.writeFileSync('./src/shared/data/skills.json', JSON.stringify(skills))
     fs.writeFileSync('./src/shared/data/members.json', JSON.stringify(members))
 }
 
-fetchMembers()
+
+init()
