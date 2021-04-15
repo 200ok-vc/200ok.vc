@@ -1,4 +1,4 @@
-let fs = require('fs')
+let exists = require('fs').existsSync
 let join = require('path').join
 let arc = require('@architect/functions')
 let IndexView = require('@architect/views/index')
@@ -17,8 +17,8 @@ function getMember(path) {
 // return true if the markdown file exists, false otherwise
 function pageExists(path) {
   let page = path.substr(1)
-  let doc = join(__dirname, '..', '..', 'views', 'content', `${ page }.md`)
-  return fs.existsSync(doc)
+  let doc = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', `${ page }.md`)
+  return exists(doc)
 }
 
 // return truthy if the asset requested is in our static manifest JSON, falsy otherwise
