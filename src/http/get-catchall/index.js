@@ -1,4 +1,4 @@
-let exists = fs.existsSync
+let fs = require('fs')
 let arc = require('@architect/functions')
 let IndexView = require('@architect/views/index')
 let MemberView = require('@architect/views/member')
@@ -17,7 +17,7 @@ function getMember(path) {
 function pageExists(path) {
   let page = path.substr(1)
   let doc = join(__dirname, '..', '..', 'views', 'content', `${ page }.md`)
-  return exists(doc)
+  return fs.existsSync(doc)
 }
 
 // return truthy if the asset requested is in our static manifest JSON, falsy otherwise
