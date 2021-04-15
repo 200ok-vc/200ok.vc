@@ -60,7 +60,7 @@ let handler = async function (req) {
       statusCode: 200,
       json: {
         result: 'success',
-        message: 'Thanks, we will be in touch 🤘'
+        message: 'Thanks, we will be in touch! Please check out https://200ok.vc/faq for more information on next steps.'
       }
     }
   }
