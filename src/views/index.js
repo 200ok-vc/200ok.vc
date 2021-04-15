@@ -1,6 +1,6 @@
 let Layout = require('./layout')
 
-module.exports = function ({ memberData, skillData }) {
+module.exports = function IndexView ({ memberData, skillData }) {
     let content = `
 <article>
     <p>Hey there! 👋</p>
