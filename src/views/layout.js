@@ -8,6 +8,11 @@ module.exports = function LayoutView ({title, content}) {
     <link rel="stylesheet" href="/styles/main.css" />
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://200ok.vc/images/200ok-social-sharing.jpg" />
+    <meta name="twitter:image" content="https://200ok.vc/images/200ok-social-sharing.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@200okVC">
+    <meta name="twitter:title" content="200ok.vc // we help folks building tools for developers">
     <title>200 OK Ventures | ${ title }</title>
   </head>
   <body>
