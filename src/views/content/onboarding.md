@@ -26,4 +26,4 @@ Finally, please review our [Code of Conduct](/code-of-conduct). It's not just a 
 
 ## Next steps?
 
-Please review the [200 OK Manual](/manual). I will do my best to keep this up-to-date and hopefully it will answer most of your questions in terms of where information is or what you're supposed to do.
+Please review the [Member Manual](/manual). I will do my best to keep this up-to-date and hopefully it will answer most of your questions in terms of where information is or what you're supposed to do.

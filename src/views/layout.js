@@ -13,7 +13,7 @@ module.exports = function LayoutView ({title, content}) {
   <body>
     <div id="root">
       <div id="header">
-        <a href="/">200 OK</a> <a href="/code-of-conduct">Code of Conduct</a>
+        <a href="/">200 OK</a> <a href="/faq">FAQ</a> <a href="/code-of-conduct">Code of Conduct</a>
       </div>
       ${ content }
       <div id="footer">
