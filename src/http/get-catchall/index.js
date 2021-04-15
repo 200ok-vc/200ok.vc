@@ -1,4 +1,5 @@
 let fs = require('fs')
+let join = require('path').join
 let arc = require('@architect/functions')
 let IndexView = require('@architect/views/index')
 let MemberView = require('@architect/views/member')
