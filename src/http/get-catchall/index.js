@@ -32,23 +32,23 @@ function staticExists(path) {
  */
 async function Router (req) {
   // root (/) request, return Index view
-  if (req.rawPath === '/') {
+  if (req.path === '/') {
       return await IndexView({ memberData, skillData })
   }
   // the path matches the stub for a member (i.e. /carter-rabasa), return Member view
-  else if (getMember(req.rawPath)) {
-    return await MemberView({ member: getMember(req.rawPath) })
+  else if (getMember(req.path)) {
+    return await MemberView({ member: getMember(req.path) })
   }
   // the path matches a markdown file in our filesystem
-  else if (pageExists(req.rawPath)) {
+  else if (pageExists(req.path)) {
     return await PageView(req)
   }
   // the path matches a static file we know about
-  else if (staticExists(req.rawPath)) {
+  else if (staticExists(req.path)) {
     return {
       statusCode: 301,
       headers: {
-        location: arc.static(req.rawPath)
+        location: arc.static(req.path)
       }
     }
   }

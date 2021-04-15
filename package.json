@@ -6,17 +6,17 @@
     "start": "npx sandbox"
   },
   "devDependencies": {
-    "@architect/architect": "^8.5.3",
+    "@architect/architect": "^8.5.4",
     "@architect/sandbox": "^3.4",
     "dotenv": "^8.2.0",
     "slugify": "^1.5.0"
   },
   "dependencies": {
-    "@architect/functions": "^3.13.9",
+    "@architect/functions": "^3.13.11",
     "@begin/data": "^2.0.1",
     "email-validator": "^2.0.4",
     "front-matter": "^4.0.2",
-    "marked": "^2.0.1",
+    "marked": "^2.0.3",
     "node-fetch": "^2.6.1"
   }
 }

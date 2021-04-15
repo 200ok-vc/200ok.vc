@@ -22,7 +22,7 @@ function MarkdownTemplate({ title, body }) {
  * Page view: catchall for all other pages, authored either in markdown or HTML
  */
 module.exports = async function Page(req) {
-  let page = req.rawPath.substr(1)
+  let page = req.path.substr(1)
   let type = 'markdown'
   let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc)) {
