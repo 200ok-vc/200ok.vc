@@ -61,17 +61,16 @@ let handler = async function (req) {
     let record  = {
       "fields": {
         "Name": req.body.startup,
-        "Contact": `${ req.body.name } <${ req.body.email }>`,
+        "Contact": req.body.name,
+        "Email": req.body.email,
         "Needs Help With": [
           skills.find((s) => s.name === req.body.need_help_with).id
         ],
-        "One Liner": req.body.one_liner
+        "One Liner": req.body.one_liner,
+        "Status": "API Request"
       }
     }
-    console.log(JSON.stringify(record))
-    let foo = await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
-    console.log(foo)
-    // TODO
+    await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
     res = {
       statusCode: 200,
       json: {
