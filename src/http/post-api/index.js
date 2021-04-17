@@ -2,7 +2,7 @@ let arc = require('@architect/functions')
 let data = require('@begin/data')
 let fetch = require('node-fetch')
 let validator = require('email-validator')
-let skills = require('@architect/shared/data/skills.json').map((s) => s.name)
+let skills = require('@architect/shared/data/skills.json')
 
 let handler = async function (req) {
   let res;
@@ -22,12 +22,12 @@ let handler = async function (req) {
     }
   }
   // help needed must match a valid skill
-  else if (skills.indexOf(req.body.need_help_with) < 0) { 
+  else if (skills.map((s) => s.name).indexOf(req.body.need_help_with) < 0) { 
     res = {
       statusCode: 400,
       json: {
         result: 'error',
-        message: 'The value for need_help_with must be *one* of these: ' + skills.join(", ")
+        message: 'The value for need_help_with must be *one* of these: ' + skills.map((s) => s.name).join(", ")
       }
     }
   }
@@ -53,8 +53,24 @@ let handler = async function (req) {
     let message = {
       text: `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }\none liner: ${ req.body.one_liner }\nneed help with: ${ req.body.need_help_with }`
     }
-    await fetch(process.env.SLACK_WEBHOOK_URL, {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(message)})
+    await fetch(process.env.SLACK_WEBHOOK_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(message) })
     // write to Airtable
+    let appId = process.env.AIRTABLE_APP_ID
+    let appKey = process.env.AIRTABLE_APP_KEY
+    let baseUrl = `https://api.airtable.com/v0/${ appId }`
+    let record  = {
+      "fields": {
+        "Name": req.body.startup,
+        "Contact": `${ req.body.name } <${ req.body.email }>`,
+        "Needs Help With": [
+          skills.find((s) => s.name === req.body.need_help_with).id
+        ],
+        "One Liner": req.body.one_liner
+      }
+    }
+    console.log(JSON.stringify(record))
+    let foo = await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
+    console.log(foo)
     // TODO
     res = {
       statusCode: 200,
