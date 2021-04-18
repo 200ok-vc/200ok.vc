@@ -1,5 +1,6 @@
 let arc = require('@architect/functions')
 let data = require('@begin/data')
+let sendgrid = require('@sendgrid/mail')
 let fetch = require('node-fetch')
 let validator = require('email-validator')
 let skills = require('@architect/shared/data/skills.json')
@@ -71,11 +72,21 @@ let handler = async function (req) {
       }
     }
     await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
+    // send email
+    sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
+    let msg = {
+      to: req.body.email,
+      from: process.env.FROM_EMAIL,
+      subject: 'Hi from 200ok.vc!',
+      text: 'and easy to do anywhere, even with Node.js',
+      html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    }
+    await sendgrid.send(msg)
     res = {
       statusCode: 200,
       json: {
         result: 'success',
-        message: 'Thanks, we will be in touch! Please check out https://200ok.vc/faq for more information on next steps.'
+        message: 'Thanks! Please check your email, we\'ve sent along along some next steps :)'
       }
     }
   }

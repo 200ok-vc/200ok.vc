@@ -11,6 +11,7 @@ src src/views
 @http
 get /*
 post /api
+post /sendgrid
 
 @tables
 data
