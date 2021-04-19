@@ -72,15 +72,24 @@ let handler = async function (req) {
     }
     await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
     // send email    
-    /*let msg = {
+    let msg = {
       From: process.env.FROM_EMAIL,
       To: req.body.email,
-      Subject: "Hi from 200ok.vc!",
-      TextBody: "Hello dear Postmark user.",
-      HtmlBody: "<html><body><strong>Hello</strong> dear Postmark user.</body></html>",
+      ReplyTo: process.env.FWD_EMAIL,
+      Subject: "Hi from 200ok.vc ✨",
+      TextBody: `Hey there!
+
+This is Carter, one of the organizers of 200ok.vc. Thanks for reaching out! 
+
+How can we help?
+
+--
+Carter Rabasa
+https://200ok.vc/carter-rabasa`,
+      /*HtmlBody: `<html><body></body></html>`,*/
       MessageStream: "outbound"
     }
-    await fetch('https://api.postmarkapp.com/email', { method: 'POST', headers: { 'X-Postmark-Server-Token': process.env.POSTMARK_API_KEY, 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(msg) })*/
+    await fetch('https://api.postmarkapp.com/email', { method: 'POST', headers: { 'X-Postmark-Server-Token': process.env.POSTMARK_API_KEY, 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(msg) })
     res = {
       statusCode: 200,
       json: {
