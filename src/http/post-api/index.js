@@ -1,6 +1,5 @@
 let arc = require('@architect/functions')
 let data = require('@begin/data')
-let sendgrid = require('@sendgrid/mail')
 let fetch = require('node-fetch')
 let validator = require('email-validator')
 let skills = require('@architect/shared/data/skills.json')
@@ -72,16 +71,16 @@ let handler = async function (req) {
       }
     }
     await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
-    // send email
-    sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
-    let msg = {
-      to: req.body.email,
-      from: process.env.FROM_EMAIL,
-      subject: 'Hi from 200ok.vc!',
-      text: 'and easy to do anywhere, even with Node.js',
-      html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    // send email    
+    /*let msg = {
+      From: process.env.FROM_EMAIL,
+      To: req.body.email,
+      Subject: "Hi from 200ok.vc!",
+      TextBody: "Hello dear Postmark user.",
+      HtmlBody: "<html><body><strong>Hello</strong> dear Postmark user.</body></html>",
+      MessageStream: "outbound"
     }
-    await sendgrid.send(msg)
+    await fetch('https://api.postmarkapp.com/email', { method: 'POST', headers: { 'X-Postmark-Server-Token': process.env.POSTMARK_API_KEY, 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(msg) })*/
     res = {
       statusCode: 200,
       json: {
