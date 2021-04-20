@@ -11,7 +11,6 @@ src src/views
 @http
 get /*
 post /api
-post /postmark
 
 @tables
 data

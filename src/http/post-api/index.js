@@ -75,7 +75,6 @@ let handler = async function (req) {
     let msg = {
       From: process.env.FROM_EMAIL,
       To: req.body.email,
-      ReplyTo: process.env.FWD_EMAIL,
       Subject: "Hi from 200ok.vc ✨",
       TextBody: `Hey there!
 
