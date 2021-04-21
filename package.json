@@ -1,6 +1,6 @@
 {
   "name": "200-ok-vc",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "The website for 200ok.vc",
   "scripts": {
     "start": "npx sandbox"
