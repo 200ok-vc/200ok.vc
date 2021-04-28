@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Founder FAQ
 ---
 ## What is 200 OK Ventures?
 
@@ -9,9 +9,9 @@ Our goal is to help founders who are building the next generation of developer-c
 
 ## What kind of help do you provide?
 
-First, we provide feedback to founders on their product and help them think about bringing it to market.
+First, we provide feedback to founders on their product and help them think about bringing it to market. The closer you are to having built something that you can demo or (better) we can actually play with, the more we can provide actionable feedback.
 
-Second, we write checks. Our check sizes range from $5k - $25k.
+Second, we write individual checks. Our members' check sizes range from $5k - $25k. It's important to note that although we work as a group when providing feedback, we all invest as individuals.
 
 ## Are you willing to write bigger checks as a syndicate?
 
@@ -19,14 +19,11 @@ Maybe! But we prefer not to. We feel that the primary value of the people here a
 
 ## What happens after I make that POST request?
 
-Our API sends the content of the POST request to our Slack channel. Once one of our members gets a chance to review it, they will reach out via the email provided in the POST request. So please provide a valid email address.
+Our API sends the content of the POST request to our Slack channel and triggers an automated email to the person who submitted the request (so please provide a valid email address). Althoug the email is automated, the reply-to goes to a real person, so please respond and let us know how we can help!
 
 ## Ok, what happens after that?
 
-- We will reach out to say "hello".
-- We'll ask you where you are regarding fundraising (from "not planning on it" to "closing next week")
-- We'll ask you how we can help
-- We'll schedule a time for you to demo your product (MVPs and prototypes are ok) to the group
+If possible, we'll schedule a time for you to demo your product (MVPs and prototypes are ok) to the group.
 
 ## What is the point of the demo?
 

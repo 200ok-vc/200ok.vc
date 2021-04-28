@@ -93,7 +93,7 @@ https://200ok.vc/carter-rabasa`,
       statusCode: 200,
       json: {
         result: 'success',
-        message: 'Thanks! Please check your email, we\'ve sent along along some next steps :)'
+        message: 'Thanks! Please check out https://200ok.vc/faq for information on next steps. An email is also on its way, check your inbox.'
       }
     }
   }
