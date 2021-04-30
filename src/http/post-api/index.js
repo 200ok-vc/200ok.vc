@@ -5,7 +5,7 @@ let validator = require('email-validator')
 let skills = require('@architect/shared/data/skills.json')
 
 let handler = async function (req) {
-  let res;
+  let res
   // if "text" is passed as a parameter, then we are in localdev and this is a mock for the Slack webhook request
   if (req.body.text) {
     console.log(req.body)
@@ -22,7 +22,7 @@ let handler = async function (req) {
     }
   }
   // help needed must match a valid skill
-  else if (skills.map((s) => s.name).indexOf(req.body.need_help_with) < 0) { 
+  else if (skills.map((s) => s.name).indexOf(req.body.need_help_with) < 0) {
     res = {
       statusCode: 400,
       json: {
@@ -71,7 +71,7 @@ let handler = async function (req) {
       }
     }
     await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
-    // send email    
+    // send email
     let msg = {
       From: process.env.FROM_EMAIL,
       To: req.body.email,

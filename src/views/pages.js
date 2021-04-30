@@ -30,7 +30,7 @@ module.exports = async function Page(req) {
     type = 'html'
   }
 
-  if (!exists(doc)) return; // Bails to 404
+  if (!exists(doc)) return // Bails to 404
 
   // Read the file
   doc = read(doc).toString()
