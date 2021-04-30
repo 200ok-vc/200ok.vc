@@ -20,7 +20,7 @@ module.exports = function LayoutView ({ title, content, social = "https://200ok.
   <body>
     <div id="root">
       <div id="header">
-        <a href="/">Home</a> &middot; <a href="/faq">FAQ</a> &middot; <a href="/code-of-conduct">Code of Conduct</a>
+        <a href="/">Home</a> &middot; <a href="/faq">FAQ</a> &middot; <a href="/members">Members</a> &middot; <a href="/code-of-conduct">Code of Conduct</a>
       </div>
       ${ content }
       <div id="footer">
