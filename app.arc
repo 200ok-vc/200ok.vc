@@ -9,8 +9,10 @@ fingerprint true
 src src/views
 
 @http
-get /*
+get /members
+get /modules/:type/:module
 post /api
+get /*
 
 @tables
 data

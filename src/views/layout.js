@@ -1,4 +1,8 @@
-module.exports = function LayoutView ({ title, content, social = "https://200ok.vc/images/200ok-social-sharing.jpg" }) {
+function script(source) {
+  return `<script src=${source} type=module crossorigin></script>`
+}
+
+module.exports = function LayoutView ({ title, content, social = "https://200ok.vc/images/200ok-social-sharing.jpg", scripts = [] }) {
   return /*html*/`
   <!DOCTYPE html>
   <html lang="en">
@@ -23,6 +27,7 @@ module.exports = function LayoutView ({ title, content, social = "https://200ok.
       &nbsp;
       </div>
     </div>
+    ${ scripts.map(s => script(s)) }
   </body>
   </html>  
 `
