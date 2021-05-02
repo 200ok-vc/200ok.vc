@@ -1,8 +1,8 @@
 /* global window document */
-import SpeakerList from '../ui/member-list.js'
+import MemberList from '../ui/member-list.js'
 
 (function Main() {
-  let selectedTopics = []
+  let selectedSkills = []
   addEventHandlers()
 
   async function getData(url) {
@@ -15,59 +15,59 @@ import SpeakerList from '../ui/member-list.js'
   }
 
   function update(data) {
-    let container = document.getElementById('js-speaker-list')
+    let container = document.getElementById('js-member-list')
     if (container) {
-      container.innerHTML = SpeakerList(data)
+      container.innerHTML = MemberList(data)
       addEventHandlers()
     }
   }
 
   function addEventHandlers() {
-    let topics = document.querySelectorAll('.js-topic')
-    // attach add/remove topic handlers
+    let skills = document.querySelectorAll('.js-skill')
+    // attach add/remove skill handlers
     Array.prototype.forEach.call(
-      topics,
+      skills,
       t => t.onclick = e => {
         e.preventDefault()
         let data = t.dataset || {}
-        let topic = data.topic
-        let action = selectedTopics.includes(topic)
-          ? removeTopic
-          : addTopic
-        selectedTopics = action(selectedTopics, topic)
-        let url = '/speakers' + getTopicParams(selectedTopics)
+        let skill = data.skill
+        let action = selectedSkills.includes(skill)
+          ? removeSkill
+          : addSkill
+        selectedSkills = action(selectedSkills, skill)
+        let url = '/members' + getSkillParams(selectedSkills)
         getData(url)
-        window.history.pushState('', '', window.location.pathname + getTopicParams(selectedTopics))
+        window.history.pushState('', '', window.location.pathname + getSkillParams(selectedSkills))
       }
     )
-    // attach clear topics handler
-    let clear = document.getElementById('js-topics-clear')
-    // if no topics have been selected, the clear button does not render
+    // attach clear skills handler
+    let clear = document.getElementById('js-skills-clear')
+    // if no skills have been selected, the clear button does not render
     if (clear) {
       clear.onclick = e => {
         e.preventDefault()
-        selectedTopics = []
-        let url = '/speakers'
+        selectedSkills = []
+        let url = '/members'
         getData(url)
         window.history.pushState('', '', window.location.pathname)
       }
     }
   }
 
-  function addTopic(topics, topic) {
-    topics.push(topic)
-    return [...new Set([...topics])]
+  function addSkill(skills, skill) {
+    skills.push(skill)
+    return [...new Set([...skills])]
   }
 
-  function removeTopic(topics, topic) {
-    topics.splice(topics.indexOf(topic), 1)
-    return topics
+  function removeSkill(skills, skill) {
+    skills.splice(skills.indexOf(skill), 1)
+    return skills
   }
 
-  function getTopicParams(selectedTopics) {
-    selectedTopics = selectedTopics || []
-    return selectedTopics.length
-      ? `?topics=${selectedTopics.join(',')}`
+  function getSkillParams(selectedSkills) {
+    selectedSkills = selectedSkills || []
+    return selectedSkills.length
+      ? `?skills=${selectedSkills.join(',')}`
       : ''
   }
 }())
