@@ -14,10 +14,12 @@ async function fetchSkills() {
     return results.records.map((r) => ( { id: r.id, name: r.fields.Name } ))
 }
 
-/*async getStartups() {
-
-
-}*/
+async function fetchStartups() {
+    let fields = ['Name', 'Portfolio', 'Logo', 'Website']
+    let json = await fetch(`${ baseUrl }/Startups?view=Grid%20view${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
+    let results = await json.json()
+    return results.records.filter((r) => r.fields.Portfolio).map((r) => r.fields )
+}
 
 async function fetchMembers({ skills }) {
     let fields = ['Full Name', 'Short Bio', 'Photo', 'Super Powers', 'Website']
@@ -40,10 +42,11 @@ async function init() {
     // get skill & member data from Airtable
     let skills = await fetchSkills()
     let members = await fetchMembers({ skills })
+    let startups = await fetchStartups()
     // write these bits to JSON
     fs.writeFileSync('./src/shared/data/skills.json', JSON.stringify(skills))
     fs.writeFileSync('./src/shared/data/members.json', JSON.stringify(members))
+    fs.writeFileSync('./src/shared/data/startups.json', JSON.stringify(startups))
 }
-
 
 init()

@@ -2,15 +2,29 @@ body {
     font-family: monospace;
 }
 
+#header {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
 #root {
     margin: 10px;
 }
 
-.member-list {
+.list {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+}
+
+#members, #startups {
+    text-align:center;
 }
 
 .member {
@@ -22,6 +36,16 @@ body {
     width: 125px;
     background-size: cover;
     background-blend-mode:screen;
+    filter: grayscale(100%);
+}
+
+.startup {
+    padding: 16px;
+}
+
+.startup img {
+    height: 75px;
+    width: auto;
     filter: grayscale(100%);
 }
 
@@ -42,7 +66,7 @@ body {
     padding: 8px;
 }
 
-.js-skill {
+#skill-list a {
     display: inline-block;
     background-color:#0033FF;
     color: #fff;
@@ -51,17 +75,17 @@ body {
     padding:8px;
 }
 
-#js-skills-clear {
+#skill-list #js-skills-clear {
     background-color:#fff;
     color: #0033FF;
     border: 1px solid #0033FF;
 }
 
-a.js-skill:hover {
+#skill-list a.js-skill:hover {
     text-decoration: underline;
 }
 
-.skill-selected {
+#skill-list a.skill-selected {
     background-color: #FFD007;
     color: #0033FF;
 }

@@ -17,7 +17,7 @@ export default function Members(props) {
     ${ skills }
     ${ selectedSkills.length > 0 ? `<a id=js-skills-clear class="js-skill" href="?clear">view all</a>` : '' }
   </div>
-  <div class=member-list>
+  <div class=list>
     ${ members }
   </div>
   `

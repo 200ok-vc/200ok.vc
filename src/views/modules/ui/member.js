@@ -12,6 +12,11 @@ export default function Member(props) {
     <a href="/${ slug }" title="${ full_name }">
         <div class="member-photo" style="background-image:url('${ photo }')"></div>
     </a>
+    <div class="member-info">
+      <div class="member-name">
+        <a href="/${ slug }" title="${ full_name }">${ full_name }</a>
+      </div>
+    </div>
     <!-- ${ skills } -->
   </div>
 `
