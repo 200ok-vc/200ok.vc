@@ -5,6 +5,7 @@ export default function Members(props) {
   props = props || {}
   let selectedSkills = props.selectedSkills || []
   let members = (props.members || [])
+    .sort(() => Math.random() - 0.5)
     .map(member => Member({ member, selectedSkills })).join('')
   let skills = (props.skills || [])
     .map(skill => Skill({
