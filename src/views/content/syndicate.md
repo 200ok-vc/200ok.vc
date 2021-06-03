@@ -8,7 +8,7 @@ The 200 OK Syndicate mirrors our thesis about investing in startups building too
 Our LP network is made up of folks who all have early-stage operational experience at foundational developer tool startups like Twilio, Sendgrid, Github and Auth0. We know how hard it can be to design tools that developers love, scale up and secure services, keep documentation up-to-date and a host of other unique challenges that developer-centric startups run into every day.
 
 Our mission is to identify early-stage startups working on tools that expand what is possible for developers and to help them bring these products to market.
-## Terms
+## TL;DR
 
 * No fees & no carry
 * Minimum LP Investment per Deal = $1,​000

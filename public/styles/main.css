@@ -13,7 +13,8 @@ img {
 }
 
 a:link, a:visited {
-    color: #000;
+    color: blue;
+    font-weight: 900;
     text-decoration: none;
 }
 
