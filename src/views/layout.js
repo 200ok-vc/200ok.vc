@@ -22,9 +22,8 @@ module.exports = function LayoutView ({ title, content, social = "https://200ok.
       <section id="header">
         <nav>
           <a href="/">Home</a> &middot; 
-          <a href="/faq">FAQ</a> &middot; 
-          <a href="/members">Members</a> &middot; 
-          <a href="/syndicate">Syndicate</a> &middot; 
+          <a href="/founders">Founders</a> &middot; 
+          <a href="/investors">Investors</a> &middot; 
           <a href="/code-of-conduct">Code of Conduct</a>
         </nav>
         </section>

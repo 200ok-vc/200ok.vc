@@ -15,7 +15,7 @@ Our mission is to identify early-stage startups working on tools that expand wha
 * Expected Deals per Year = 5
 * Platform = AngelList (fees & carry apply)
 
-[[Join]](https://angel.co/s/http-200-ok/w7Q2q)
+<div class="cta"><a href="https://airtable.com/shr8TNT4jl3nZ8lLT">Join</a></div>
 
 ## FAQ
 

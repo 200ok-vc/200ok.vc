@@ -33,12 +33,34 @@ a:hover {
     justify-content: center;
 }
 
-#landing section h2 {
+#landing section h1 {
+    font-size: 2em;
     text-align:center;
+}
+
+#landing .cta {
+    text-align: center;
 }
 
 .member {
     padding: 8px;
+}
+
+.cta {
+    margin: 32px 0;
+}
+
+.cta a, .cta a:visited {
+    padding: 8px;
+    background-color: #0033FF;
+    border: 4px solid #fff;
+    font-size: 1.5em;
+    color: #e6e8f5;
+  	text-decoration: none;
+}
+
+.cta a:hover {
+	text-decoration: underline;
 }
 
 .member-photo {
