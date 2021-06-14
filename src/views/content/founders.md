@@ -30,7 +30,7 @@ The code for this web app is open-source and can be found at: https://github.com
 
 -->
 
-## Founder FAQ
+## FAQ
 
 ### What kind of help do you provide?
 
