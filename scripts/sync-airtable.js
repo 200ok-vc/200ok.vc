@@ -23,7 +23,7 @@ async function fetchStartups() {
 
 async function fetchMembers({ skills }) {
     let fields = ['Full Name', 'Short Bio', 'Photo', 'Super Powers', 'Website']
-    let json = await fetch(`${ baseUrl }/Members?view=Grid%20view${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
+    let json = await fetch(`${ baseUrl }/Members?view=viwDU27YE88stIJeP${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
     let results = await json.json()
     let members = results.records.map((r) => { return {
         slug: slugify(r.fields['Full Name'], { lower: true }),
