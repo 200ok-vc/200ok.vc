@@ -51,7 +51,7 @@ Finally, if you are an investor (Angel or VC) that is interested in the develope
 
 1. Send founders that you think we should connect with to [200ok.vc/founders](/founders)
 2. Send deals you'd like to share with us to deals@200ok.vc
-3. Subscribe to our email list and hear about startups &amp; deals that we think are interesting
+3. Subscribe to our email list and follow along as we build 200 OK.
 
 <div class="cta"><a href="https://airtable.com/shr4OX3G95oRTzKiU">Sign Up for Emails</a></div>
 
