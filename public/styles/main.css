@@ -47,15 +47,13 @@ a:hover {
 }
 
 .cta {
-    margin: 32px 0;
+    margin: 24px 0;
 }
 
 .cta a, .cta a:visited {
     padding: 8px;
-    background-color: #0033FF;
-    border: 4px solid #fff;
-    font-size: 1.25em;
-    color: #e6e8f5;
+    border: 1px solid #0033FF;
+    font-size: 1.15em;
   	text-decoration: none;
 }
 

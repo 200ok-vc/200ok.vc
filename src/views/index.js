@@ -15,7 +15,7 @@ module.exports = function IndexView ({ members, skills, startups }) {
     </section>
     <section id="investors">
         <h1>Joining As An Investor</h1>
-        <p>Our mission at 200 OK is to build an inclusive community of investors who have lived through the ups and downs of a devtools startup and want to help the next generation of folks building tools for developers. There are a few different ways you can plug-in:</p>
+        <p>Our mission at 200 OK is to build an inclusive community of investors who believe in the power of developers and want to help the next generation of folks building tools that empower them. There are a few different ways you can plug-in:</p>
         <ul>
             <li>Advisory - talk to founders and help connect them to resources</li>
             <li>Learning - connect with other folks new to angel investing</li>
@@ -25,11 +25,13 @@ module.exports = function IndexView ({ members, skills, startups }) {
         <div class="cta"><a href="/investors">More Info for Investors</a></div>
     </section>
     <section id="members">
-        <h1>Our Members</h1>
+        <h1>Our Advisory</h1>
+        <p>Folks in our Advisory have set aside time to talk to founders who reach out to us and help connect them to people and resources that can accelerate their progress.</p>
         ${ MembersComponent({ members }) }
     </section>
     <section id="startups">
         <h1>Our Portfolio</h1>
+        <p>These are just some of the amazing startups that members in our group have invested in.</p>
         ${ StartupsComponent({ startups })}
     </section>
 </article>`
