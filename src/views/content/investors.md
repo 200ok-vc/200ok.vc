@@ -41,13 +41,17 @@ We are still figuring things out, but here's what you can expect:
 
 ## Investing in Syndicated Deals
 
-If you don't have the time/bandwidth for Advisory or Learning, but want to invest in deals vetted by 200 OK, please join our Syndicate, which is powered by Angel List.
+If you don't have the time/bandwidth for Advisory or Learning, but want to invest in syndicated deals vetted by 200 OK, please join our Syndicate, which is powered by Angel List.
 
 <div class="cta"><a href="/syndicate">More Info on Syndicate</a></div>
 
 ## Sharing Deal Flow
 
-Finally, if you are an investor (Angel or VC) that is interested in the developer tools space, let's share information on interesting startups and deals that we hear about!
+Finally, if you are an investor (Angel or VC) that is interested in the developer tools space, let's share information on interesting startups and deals!
+
+1. Send founders that you think we should connect with to [200ok.vc/founders](/founders)
+2. Send deals you'd like to share with us to deals@200ok.vc
+3. Subscribe to our email list and hear about startups &amp; deals that we think are interesting
 
 <div class="cta"><a href="https://airtable.com/shr4OX3G95oRTzKiU">Sign Up for Emails</a></div>
 
