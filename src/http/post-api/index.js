@@ -54,23 +54,6 @@ let handler = async function (req) {
       text: `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }\none liner: ${ req.body.one_liner }\nneed help with: ${ req.body.need_help_with }`
     }
     await fetch(process.env.SLACK_WEBHOOK_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(message) })
-    // write to Airtable
-    let appId = process.env.AIRTABLE_APP_ID
-    let appKey = process.env.AIRTABLE_APP_KEY
-    let baseUrl = `https://api.airtable.com/v0/${ appId }`
-    let record  = {
-      "fields": {
-        "Name": req.body.startup,
-        "Contact": req.body.name,
-        "Email": req.body.email,
-        "Needs Help With": [
-          skills.find((s) => s.name === req.body.need_help_with).id
-        ],
-        "One Liner": req.body.one_liner,
-        "Status": "API Request"
-      }
-    }
-    await fetch(`${ baseUrl }/Startups`, { method: 'POST', headers: { 'Authorization': `Bearer ${ appKey }`, 'Content-Type': 'application/json' }, body: JSON.stringify(record) })
     // send email
     let msg = {
       From: process.env.FROM_EMAIL,
@@ -78,9 +61,13 @@ let handler = async function (req) {
       Subject: "Hi from 200ok.vc ✨",
       TextBody: `Hey there!
 
-This is Carter, one of the organizers of 200ok.vc. Thanks for reaching out! 
+This is Carter, one of the organizers of 200ok.vc 👋 Thanks for triggering this email by submitting a POST request to our API. We love APIs and hope you do to.
 
-How can we help?
+The #1 thing we want to do is help founders, so please tell us a little about your startup and what you could use assistance with:
+
+https://airtable.com/shrhDcydUhYQdvD4W
+
+After you fill-out the form, someone from 200ok will be in touch to set-up time for a call. If you need anything in the meantime, just let me know!
 
 --
 Carter Rabasa
@@ -93,7 +80,7 @@ https://200ok.vc/carter-rabasa`,
       statusCode: 200,
       json: {
         result: 'success',
-        message: 'Thanks! Please check out https://200ok.vc/faq for information on next steps. An email is also on its way, check your inbox.'
+        message: 'Thanks! Please check out https://200ok.vc/faq for information on next steps. An important email is also on its way, check your inbox.'
       }
     }
   }
