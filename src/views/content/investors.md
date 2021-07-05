@@ -2,12 +2,7 @@
 title: 200 OK for Investors
 ---
 There are a few ways you, as an investor, can participate in what we're building at 200 OK:
-
-1. Becoming a Member
-2. Investing in Syndicated Deals
-3. Sharing Deal Flow
-
-## Becoming a Member of 200 OK Ventures
+## 1) Become a Member
 
 Our mission is to build a diverse and inclusive group of angel investors who care about helping founders build the next generation of dev tools. We have only three criteria:
 
@@ -15,44 +10,18 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 - You have worked in an operational role at an early stage dev tool startup
 - You are willing to put in the time to talk to founders and/or learn how to angel invest
 
-### The Advisory 
+<div class="cta"><a href="/membership">Membership Info</a></div>
 
-If you are interested in taking the time to meet founders who reach out to us, join our Advisory. There are two immediate ways in which we try to help:
+## 2) Join our Syndicate
 
-1. Provide feedback on their idea and demo.
-2. Understand their challenges and connect them to people &amp; resources that can help.
+If you don't have the time/bandwidth to become a Member, but want to invest in syndicated deals vetted by 200 OK, please join our Syndicate.
 
-We're also happy to discuss investing in pre-seed or seed rounds. If there is interest in the deal by one or more members of Advisory, we can:
+<div class="cta"><a href="/syndicate">Syndicate Info</a></div>
 
-- Directly invest in the round.
-- Lead a deal through the 200 OK Syndicate.
-- Serve as an advisor.
+## 3) Share Dealflow
 
-### The Learning Club
+Finally, if you are an investor (Angel or VC) that is interested in hear about startups and deals in the developer tools space, let's be email friends!
 
-If you're early in your journey as an angel investor, you might find the subject pretty intimidating. If you would like to learn "how to angel" with other folks from the dev tools space, join our Learning Club.
-
-We are still figuring things out, but here's what you can expect:
-
-- Time commitment = 1-2 hours/month
-- Communication = Slack + Zoom calls
-
-<div class="cta"><a href="http://calendly.com/carter-rabasa">Book Onboarding Call</a></div>
-
-## Investing in Syndicated Deals
-
-If you don't have the time/bandwidth for Advisory or Learning, but want to invest in syndicated deals vetted by 200 OK, please join our Syndicate, which is powered by Angel List.
-
-<div class="cta"><a href="/syndicate">More Info on Syndicate</a></div>
-
-## Sharing Deal Flow
-
-Finally, if you are an investor (Angel or VC) that is interested in the developer tools space, let's share information on interesting startups and deals!
-
-1. Send founders that you think we should connect with to [200ok.vc/founders](/founders)
-2. Send deals you'd like to share with us to deals@200ok.vc
-3. Subscribe to our email list and follow along as we build 200 OK.
-
-<div class="cta"><a href="https://airtable.com/shr4OX3G95oRTzKiU">Sign Up for Emails</a></div>
+<div class="cta"><a href="/sharing-deals">Sharing Deals Info</a></div>
 
 

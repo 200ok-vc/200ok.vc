@@ -34,7 +34,7 @@ a:hover {
 }
 
 #landing section h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align:center;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 .cta a, .cta a:visited {
     padding: 8px;
     border: 1px solid #0033FF;
-    font-size: 1.15em;
+    font-size: 1.1em;
   	text-decoration: none;
 }
 
