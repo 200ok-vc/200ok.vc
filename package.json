@@ -1,6 +1,6 @@
 {
   "name": "200-ok-vc",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "The website for 200ok.vc",
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
