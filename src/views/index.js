@@ -11,21 +11,20 @@ module.exports = function IndexView ({ members, skills, startups }) {
     developer-centric startups run into every day.</p>
     <section id="founders">
         <h1>Working With Founders</h1>
-        <p>We write individual checks as strategic angel investors. Our members have deep operational experience in bringing dev tools to market, 
+        <p>Our members have deep operational experience in building and bringing dev tools to market, 
         whether it's hiring your first <a href="/members?skills=DevRel">DevRel</a> employee or <a href="/members?skills=Sales">selling</a> into the 
-        Enterprise. We also pool our resources through our <a href="/syndicate">200 OK Syndicate</a> for founders who are looking for larger checks 
-        and need less direct assistance from members of our group.</p> 
+        Enterprise. We are a great fit for founders who want strategic angels as investors in their pre-seed and seed rounds.</p> 
         <div class="cta"><a href="/founders">More Info for Founders</a></div>
     </section>
     <section id="investors">
         <h1>Joining As An Investor</h1>
         <p>Our mission at 200 OK is to build an inclusive community of investors who believe in the power of developers and want to help the next 
-        generation of folks building tools that empower them.</p>
+        generation of folks building tools that empower them. We have lots of options for folks to participate, everything from becoming a Member to
+        signing-up for our Newsletter.</p>
         <div class="cta"><a href="/investors">More Info for Investors</a></div>
     </section>
     <section id="members">
-        <h1>Our Advisory</h1>
-        <p>Folks in our Advisory have set aside time to talk to founders who reach out to us and help connect them to people and resources that can accelerate their progress.</p>
+        <h1>Our Members</h1>
         ${ MembersComponent({ members }) }
     </section>
     <section id="startups">

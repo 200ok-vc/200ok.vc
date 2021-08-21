@@ -2,7 +2,7 @@ let arc = require('@architect/functions')
 let data = require('@begin/data')
 let fetch = require('node-fetch')
 let validator = require('email-validator')
-let skills = require('@architect/shared/data/skills.json')
+//let skills = require('@architect/shared/data/skills.json')
 
 let handler = async function (req) {
   let res
@@ -22,7 +22,7 @@ let handler = async function (req) {
     }
   }
   // help needed must match a valid skill
-  else if (skills.map((s) => s.name).indexOf(req.body.need_help_with) < 0) {
+  /*else if (skills.map((s) => s.name).indexOf(req.body.need_help_with) < 0) {
     res = {
       statusCode: 400,
       json: {
@@ -30,13 +30,13 @@ let handler = async function (req) {
         message: 'The value for need_help_with must be *one* of these: ' + skills.map((s) => s.name).join(", ")
       }
     }
-  }
-  else if (!req.body.name || !req.body.email || !req.body.startup || !req.body.one_liner || !req.body.need_help_with) {
+  }*/
+  else if (!req.body.name || !req.body.email || !req.body.startup || !req.body.url) {
     res = {
       statusCode: 400,
       json: {
         result: 'error',
-        message: 'You must include all of the following POST parameters: name, email, startup, one_liner and need_help_with.'
+        message: 'You must include all of the following POST parameters: name, email, startup, url.'
       }
     }
   }
@@ -44,14 +44,13 @@ let handler = async function (req) {
   // - name | string
   // - email | string
   // - startup | string
-  // - one_liner | string
-  // - need_help_with | string
+  // - url | string
   else {
     // store a record in our DB
     await data.set({ table: 'messages', key: req.body.email, ...req.body })
     // ping Slack
     let message = {
-      text: `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }\none liner: ${ req.body.one_liner }\nneed help with: ${ req.body.need_help_with }`
+      text: `name: ${ req.body.name }\nemail: ${ req.body.email }\nstartup: ${ req.body.startup }\nurl: ${ req.body.url }`
     }
     await fetch(process.env.SLACK_WEBHOOK_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(message) })
     // send email
@@ -61,7 +60,7 @@ let handler = async function (req) {
       Subject: "Hi from 200ok.vc ✨",
       TextBody: `Hey there!
 
-This is Carter, one of the organizers of 200ok.vc 👋 Thanks for triggering this email by submitting a POST request to our API. We love APIs and hope you do to.
+This is Carter, one of the investors at 200ok.vc 👋 Thanks for triggering this email by submitting a POST request to our API. We love APIs and hope you do too.
 
 The #1 thing we want to do is help founders, so please tell us a little about your startup and what you could use assistance with:
 
@@ -80,7 +79,7 @@ https://200ok.vc/carter-rabasa`,
       statusCode: 200,
       json: {
         result: 'success',
-        message: 'Thanks! Please check out https://200ok.vc/faq for information on next steps. An important email is also on its way, check your inbox.'
+        message: 'Thanks! We just sent you an email with some next steps. Thanks for sending us the POST!'
       }
     }
   }

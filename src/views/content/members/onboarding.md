@@ -8,13 +8,7 @@ Thank you for joining our merry little band of hacker investors! Here are the ne
 
 Please review our [Code of Conduct](/code-of-conduct). It's not just a list of what not to do, it's a good guide for the kind of engagement and assistance we expect all members to provide. We are building a *community of learning* and we need everyone to contribute in order to make this happen.
 
-## 2) Join Our Airtable
-
-You will recieve an email invitation to join our Airtable.
-
-We are using Airtable for pretty much everything. Update your bio? Airtable. Review a pitch deck? Airtable.
-
-## 3) Join the Syndicate
+## 2) Join the Syndicate
 
 When you're ready, there are two ways you can make investments: writing an individual check to a startup or by investing through a syndicate. A syndicate lets investors make smaller investments (minimum of $1000) that get pooled into a single, larger check for the startup.
 

@@ -19,8 +19,7 @@ Please make a POST to https://200ok.vc/api and pass the following parameters:
 name | string | your full name
 email | string | a valid email address
 startup | string | the name of your startup
-need_help_with | string | must be one of the following: ${ skills.map((s) => s.name).join(', ') }
-one_liner | string | literally just one sentence on what your startup does, don't over think it :)
+url | string | the url of your startup, a Github repo, your LinkedIn, whatever!
 
 We will be in touch!
 
@@ -45,7 +44,7 @@ If there's interest in investing, we work to make that happen quickly. We feel t
 
 ### Are you willing to write bigger checks as a syndicate?
 
-Sure! For founders who are not looking for strategic angels and would prefer a single, larger check we have set-up the [200 OK Syndicate](/syndicate).  
+Sure! For founders who are not looking for strategic angels and would prefer a single, larger check we have set-up the [200 OK Syndicate](/network/syndicate).  
 
 ### Do you offer Advisory Services?
 

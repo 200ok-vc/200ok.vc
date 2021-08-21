@@ -10,18 +10,18 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 - You have worked in an operational role at an early stage dev tool startup
 - You are willing to put in the time to talk to founders and/or learn how to angel invest
 
-<div class="cta"><a href="/membership">Membership Info</a></div>
+<div class="cta"><a href="/members">Membership Info</a></div>
 
 ## 2) Join our Syndicate
 
 If you don't have the time/bandwidth to become a Member, but want to invest in syndicated deals vetted by 200 OK, please join our Syndicate.
 
-<div class="cta"><a href="/syndicate">Syndicate Info</a></div>
+<div class="cta"><a href="/network/syndicate">Syndicate Info</a></div>
 
 ## 3) Share Dealflow
 
 Finally, if you are an investor (Angel or VC) that is interested in hear about startups and deals in the developer tools space, let's be email friends!
 
-<div class="cta"><a href="/sharing-deals">Sharing Deals Info</a></div>
+<div class="cta"><a href="/network/sharing-deals">Sharing Deals Info</a></div>
 
 
