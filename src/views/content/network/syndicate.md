@@ -10,8 +10,8 @@ Our LP network is made up of folks who all have early-stage operational experien
 Our mission is to identify early-stage startups working on tools that expand what is possible for developers and to help them bring these products to market.
 ## TL;DR
 
-* No fees & no carry
-* Minimum LP Investment per Deal = $1,​000
+* No fees, 20% carry (0% carry for 200 OK Members)
+* Minimum LP Investment per Deal = $5,​000 ($1k for 200 OK Members)
 * Expected Deals per Year = 5
 * Platform = AngelList (fees & carry apply)
 

@@ -1,7 +1,11 @@
 ---
 title: Founders Resources
 ---
-## VCs that invest in dev tools
+## Community Discord for Dev Tool founders
+
+
+
+## VCs and Angels that invest in dev tools
 
 Essence VC
 
