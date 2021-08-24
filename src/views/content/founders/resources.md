@@ -19,6 +19,8 @@ Query Capital - [Joseph Abebe](https://www.linkedin.com/in/joseph-abebe-528a0023
 
 [Voyager Capital](https://www.voyagercapital.com/) - [Austin Guyette](https://www.linkedin.com/in/austinguyette/)
 
+[WingVC](https://www.wing.vc) - [Jake Flomenberg](https://www.linkedin.com/in/jacobflomenberg/)
+
 [developers.vc](https://developers.vc)  - [Kenneth Auchenberg](https://www.linkedin.com/in/auchenberg/)
 
 [Matrix Partners](https://matrixpartners.com) - [Pat Malatack](https://www.linkedin.com/in/patrickmalatack/)
