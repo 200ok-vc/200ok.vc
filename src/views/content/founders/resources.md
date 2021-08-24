@@ -23,5 +23,5 @@ Query Capital - [Joseph Abebe](https://www.linkedin.com/in/joseph-abebe-528a0023
 
 [Matrix Partners](https://matrixpartners.com) - [Pat Malatack](https://www.linkedin.com/in/patrickmalatack/)
 
-[Javier Soto](https://www.linkedin.com/in/sotoseattle/)
+[Grubstakes](https://www.grubstakes.vc) - [Javier Soto](https://www.linkedin.com/in/sotoseattle/)
 

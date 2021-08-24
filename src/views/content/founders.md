@@ -30,17 +30,15 @@ The code for this web app is open-source and can be found at: https://github.com
 -->
 
 ## FAQ
-### What kind of help do you provide?
+### What happens after a founder contacts 200 OK?
 
-During the initial call, we try to discuss 3 things:
+We set-up a "hello world" call, where we discuss 3 things:
 
 1. The product you're building (a live demo is best)
 2. Your fundraising goals (amount, cap, timing, etc)
 3. What you need help with outside of fundraising
 
-Following the call we provide feedback on your demo and pointers to any people or resources that we think can help move you forward.
-
-If there's interest in investing, we work to make that happen quickly. We feel that the primary value of the people here at 200 OK is their personal experience scaling up successful, venture-scale dev tool companies. We work to help you identify folks from 200 OK that you want to build a relationship with and have onboard as strategic investors.
+Following the call we provide feedback on your demo and pointers to any people or resources that we think can help move you forward. If there's interest in investing, we work to make that happen quickly.
 
 ### Are you willing to write bigger checks as a syndicate?
 
