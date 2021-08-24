@@ -25,7 +25,6 @@ async function fetchMembers({ skills }) {
     let fields = ['Full Name', 'Short Bio', 'Photo', 'Super Powers', 'Website', 'Public']
     let json = await fetch(`${ baseUrl }/People?view=viwBNJyL8Mn2WcMtI${ fields.map((f) => '&fields%5B%5D='+encodeURIComponent(f)).join('') }`, { headers: {'Authorization': `Bearer ${ appKey }`}})
     let results = await json.json()
-    console.log(results.records[0].fields)
     let members = results.records
         .filter((r) => {
             return r.fields['Public'] === true
