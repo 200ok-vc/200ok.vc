@@ -8,7 +8,7 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 
 - You are an [accredited investor](https://www.nerdwallet.com/blog/investing/what-is-an-accredited-investor/)
 - You have worked in an operational role at an early stage dev tool startup
-- You are willing to put in the time to talk to founders and/or learn how to angel invest
+- You are willing to put in the time to talk to founders, do diligence and help source deals
 
 <div class="cta"><a href="http://calendly.com/carter-rabasa">Book 👋 Call</a></div>`)
     + membersComponent

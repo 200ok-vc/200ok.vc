@@ -8,19 +8,19 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 
 - You are an [accredited investor](https://www.nerdwallet.com/blog/investing/what-is-an-accredited-investor/)
 - You have worked in an operational role at an early stage dev tool startup
-- You are willing to put in the time to talk to founders and/or learn how to angel invest
+- You are willing to put in the time to talk to founders, do diligence and help source deals
 
 <div class="cta"><a href="/members">Membership Info</a></div>
 
 ## 2) Join our Syndicate
 
-If you don't have the time/bandwidth to become a Member, but want to invest in syndicated deals vetted by 200 OK, please join our Syndicate.
+Every now and then a deal comes through that a bunch of us are really excited about. If the founder is up for allocating at least $100k for 200 OK, we will provide access to this deal through our syndicate.
 
 <div class="cta"><a href="/network/syndicate">Syndicate Info</a></div>
 
 ## 3) Share Dealflow
 
-Finally, if you are an investor (Angel or VC) that is interested in hear about startups and deals in the developer tools space, let's be email friends!
+If you are an investor (Angel or VC) that is interested in hearing about startups and deals in the developer tools space, let's be email friends!
 
 <div class="cta"><a href="/network/sharing-deals">Sharing Deals Info</a></div>
 
