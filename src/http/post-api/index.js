@@ -66,7 +66,7 @@ The #1 thing we want to do is help founders, so please tell us a little about yo
 
 https://airtable.com/shrhDcydUhYQdvD4W
 
-After you fill-out the form, someone from 200ok will be in touch to set-up time for a call. If you need anything in the meantime, just let me know!
+After you fill-out the form, please reply to this email and say hello! The next step will be to set-up time to chat about your startup or idea.
 
 --
 Carter Rabasa
