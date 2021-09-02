@@ -11,6 +11,8 @@
     "@architect/sandbox": "^3.4",
     "dotenv": "^8.2.0",
     "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.2",
     "slugify": "^1.5.0"
   },
   "dependencies": {
