@@ -1,12 +1,13 @@
 ---
 title: 200 OK for Founders
 ---
+
 For founders who are seeking investment or advisory, here is how we operate:
 
-* We target pre-seed and seed stage investments.
-* We prefer to talk to folks who have at least built a prototype that they can demo.
-* We lean towards teams with at least one technical founder.
-* We try to match you with strategic angels who are interested in investing and able to help your company take the next step.
+- We target pre-seed and seed stage investments.
+- We prefer to talk to folks who have at least built a prototype that they can demo.
+- We lean towards teams with at least one technical founder.
+- We try to match you with strategic angels who are interested in investing and able to help your company take the next step.
 
 ## Contacting Us
 
@@ -30,6 +31,7 @@ The code for this web app is open-source and can be found at: https://github.com
 -->
 
 ## FAQ
+
 ### What happens after a founder contacts 200 OK?
 
 We set-up a "hello world" call, where we discuss 3 things:
@@ -42,7 +44,7 @@ Following the call we provide feedback on your demo and pointers to any people o
 
 ### Are you willing to write bigger checks as a syndicate?
 
-Sure! For founders who are not looking for strategic angels and would prefer a single, larger check we have set-up the [200 OK Syndicate](/network/syndicate).  
+Sure! For founders who are not looking for strategic angels and would prefer a single, larger check we have set-up the [200 OK Syndicate](/network/syndicate).
 
 ### Do you offer Advisory Services?
 

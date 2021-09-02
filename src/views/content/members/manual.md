@@ -1,6 +1,7 @@
 ---
 title: Member Manual
 ---
+
 A (hopefully) handy guide to being a Member of 200 OK. PRs welcome!
 
 ## Website profiles
@@ -27,7 +28,7 @@ There are two main ways that you can invest in a startup that you're excited abo
 
 ### Investing Directly
 
-If you are excited about a startup and they are excited about having you onboard as an investor, they may offer you the opportunity to make a direct investment in their round. Startups often reserve space in their round for "strategic angels". These are people who have specific skills or connections that can help accelerate and de-risk the startup. 
+If you are excited about a startup and they are excited about having you onboard as an investor, they may offer you the opportunity to make a direct investment in their round. Startups often reserve space in their round for "strategic angels". These are people who have specific skills or connections that can help accelerate and de-risk the startup.
 
 This is a fantastic way to invest in a company you believe in and have some agency in whether or not they are successful. The downside is that this can become time consuming, depending on your level of involvement and the number of other companies you have invested in.
 

@@ -1,9 +1,9 @@
-let Layout = require('./layout')
-let MembersComponent = require('./components/members')
-let StartupsComponent = require('./components/startups')
+let Layout = require("./layout");
+let MembersComponent = require("./components/members");
+let StartupsComponent = require("./components/startups");
 
-module.exports = function IndexView ({ members, skills, startups }) {
-    let content = /*html*/`
+module.exports = function IndexView({ members, skills, startups }) {
+  let content = /*html*/ `
 <article id="landing">
     <p>Hey there! 👋</p>
     <p>200 OK Ventures is a friendly community of angel investors who have all worked at early stage API and platform startups. We know how hard it can be to design platforms that developers love, scale up and secure them, keep documentation up-to-date and a host of other unique challenges that developer-centric startups run into every day.</p>
@@ -21,14 +21,14 @@ module.exports = function IndexView ({ members, skills, startups }) {
     </section>
     <section id="members">
         <h1>Our Members</h1>
-        ${ MembersComponent({ members }) }
+        ${MembersComponent({ members })}
     </section>
     <section id="startups">
         <h1>Our Portfolio</h1>
         <p>These are just some of the amazing startups that members in our group have invested in.</p>
-        ${ StartupsComponent({ startups })}
+        ${StartupsComponent({ startups })}
     </section>
-</article>`
-    let html = Layout({ content, title: 'Home' })
-    return { html }
-  }
+</article>`;
+  let html = Layout({ content, title: "Home" });
+  return { html };
+};

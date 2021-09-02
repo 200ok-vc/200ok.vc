@@ -1,6 +1,7 @@
 ---
 title: Code of Conduct
 ---
+
 200 OK Ventures is a friendly and inclusive group of angel investors who have operational experience working at API/platform/tooling startups and are interested in
 providing funding and assistance for the next generation of developer-focused companies.
 
@@ -14,7 +15,7 @@ We are dedicated to providing a safe and inclusive space for our members.
 
 We welcome everyone regardless of gender identity, sex, race, ethnicity, sexual orientation, religion, age, disability, physical appearance, or body size.
 
-We don't tolerate harrassment, including prejudicial comments, sexual imagery, deliberate intimidation, stalking, sustained disruption and unwelcome sexual attention. 
+We don't tolerate harrassment, including prejudicial comments, sexual imagery, deliberate intimidation, stalking, sustained disruption and unwelcome sexual attention.
 
 ## Learning By Doing
 

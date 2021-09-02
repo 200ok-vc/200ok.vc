@@ -1,6 +1,7 @@
 ---
 title: Sharing Deals
 ---
+
 The world of investors who are passionate about dev tools is not very big, so let's all work together to support founders who are working in this space.
 
 ## Connect us to founders
@@ -16,5 +17,3 @@ If there's an active deal that a startup would like to get in front of the folks
 Likewise, when we hear about deals that founders allow us to share more broadly, we send them out to our mailing list. If you'd like to hear about these deals, please subscribe below.
 
 <div class="cta"><a href="https://airtable.com/shr4OX3G95oRTzKiU">Sign Up for Emails</a></div>
-
-

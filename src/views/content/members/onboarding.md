@@ -6,7 +6,7 @@ Thank you for joining our merry little band of hacker investors! Here are the ne
 
 ## 1) Review the Code of Conduct
 
-Please review our [Code of Conduct](/code-of-conduct). It's not just a list of what not to do, it's a good guide for the kind of engagement and assistance we expect all members to provide. We are building a *community of learning* and we need everyone to contribute in order to make this happen.
+Please review our [Code of Conduct](/code-of-conduct). It's not just a list of what not to do, it's a good guide for the kind of engagement and assistance we expect all members to provide. We are building a _community of learning_ and we need everyone to contribute in order to make this happen.
 
 ## 2) Join the Syndicate
 
