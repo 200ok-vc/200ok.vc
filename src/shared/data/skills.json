@@ -1,12 +1,1 @@
-[
-  { "id": "recFnOrpZt7KWZjg1", "name": "DevRel" },
-  { "id": "rec1bbCt9wxCgj2ZI", "name": "Marketing" },
-  { "id": "reclUpxEYTIJF8cc6", "name": "Documentation" },
-  { "id": "recXv98x9J1xCPS56", "name": "Community" },
-  { "id": "reclsWjdJHHxHRAXK", "name": "Product" },
-  { "id": "recpVCV2eByxOtY6L", "name": "Engineering" },
-  { "id": "recJI0nKcXWcibSUl", "name": "Sales" },
-  { "id": "recdltNgOT2zWJL6O", "name": "BizDev" },
-  { "id": "recNm3EQjnSFlGE7t", "name": "Fundraising" },
-  { "id": "recvGwt0Xm4R90y26", "name": "Open Source" }
-]
+[{"id":"recFnOrpZt7KWZjg1","name":"DevRel"},{"id":"rec1bbCt9wxCgj2ZI","name":"Marketing"},{"id":"reclUpxEYTIJF8cc6","name":"Documentation"},{"id":"recXv98x9J1xCPS56","name":"Community"},{"id":"reclsWjdJHHxHRAXK","name":"Product"},{"id":"recpVCV2eByxOtY6L","name":"Engineering"},{"id":"recJI0nKcXWcibSUl","name":"Sales"},{"id":"recdltNgOT2zWJL6O","name":"BizDev"},{"id":"recNm3EQjnSFlGE7t","name":"Fundraising"},{"id":"recvGwt0Xm4R90y26","name":"Open Source"}]
