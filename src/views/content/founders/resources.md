@@ -27,3 +27,5 @@ Query Capital - [Joseph Abebe](https://www.linkedin.com/in/joseph-abebe-528a0023
 [Matrix Partners](https://matrixpartners.com) - [Pat Malatack](https://www.linkedin.com/in/patrickmalatack/)
 
 [Grubstakes](https://www.grubstakes.vc) - [Javier Soto](https://www.linkedin.com/in/sotoseattle/)
+
+[Root Ventures](https://root.vc) - [Lee Edwards](https://github.com/ledwards)
