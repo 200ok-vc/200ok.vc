@@ -14,9 +14,7 @@ module.exports = function IndexView({ members, skills, startups }) {
     </section>
     <section id="investors">
         <h1>Joining As An Investor</h1>
-        <p>Our mission at 200 OK is to build an inclusive community of investors who believe in the power of developers and want to help the next 
-        generation of folks building tools that empower them. We have lots of options for folks to participate, everything from becoming a Member to
-        joining our Syndicate to Sharing Deals.</p>
+        <p>Our mission at 200 OK is to build an inclusive community of investors who believe in the power of developers and want to help the next generation of folks building tools that empower them. We have lots of options for folks to participate, everything from becoming a Member to joining our Syndicate to Sharing Deals.</p>
         <div class="cta"><a href="/investors">More Info for Investors</a></div>
     </section>
     <section id="members">

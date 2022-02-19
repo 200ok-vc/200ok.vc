@@ -8,9 +8,9 @@ There are a few ways you, as an investor, can participate in what we're building
 
 Our mission is to build a diverse and inclusive group of angel investors who care about helping founders build the next generation of dev tools. We have only three criteria:
 
-- You are an [accredited investor](https://www.nerdwallet.com/blog/investing/what-is-an-accredited-investor/)
-- You have worked in an operational role at an early stage dev tool startup
-- You are willing to put in the time to talk to founders, do diligence and help source deals
+1. You are an [accredited investor](https://www.nerdwallet.com/blog/investing/what-is-an-accredited-investor/)
+2. You have worked in an operational role at an early stage dev tool startup
+3. You are willing to put in the time to talk to founders and participate on our monthly call
 
 <div class="cta"><a href="/members">Membership Info</a></div>
 

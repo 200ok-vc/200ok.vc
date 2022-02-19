@@ -16,4 +16,4 @@ Joing the 200 OK Syndicate does not cost anything and does not commit you to mak
 
 ## Next steps?
 
-Please review the [Member Manual](/manual). We will keep this up-to-date and hopefully it will answer most of your questions in terms of where information is or how to get things done.
+Please review the [Member Manual](/members/manual). We will keep this up-to-date and hopefully it will answer most of your questions in terms of where information is or how to get things done.

@@ -4,7 +4,7 @@
   "description": "The website for 200ok.vc",
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "start": "npx sandbox"
+    "start": "ARC_TABLES_PORT=5001 npx sandbox"
   },
   "devDependencies": {
     "@architect/architect": "^8.5.4",

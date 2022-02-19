@@ -8,11 +8,9 @@ A (hopefully) handy guide to being a Member of 200 OK. PRs welcome!
 
 Everyone who would like can have their photo & info posted on our website at [200ok.vc/members](/members).
 
-Please make sure your information is correct and to your liking. If you'd like to get an update published to the website or want your profile taken down, just ping Carter in Slack.
+Please make sure your information is correct and to your liking. If you'd like to get an update published to the website or want your profile taken down, just ping Carter in Discord.
 
-## List of startups
-
-{ Insert link to Airtable view }
+## Sourcing deals
 
 If you meet a startup that you think is a good fit for 200 OK, please simply point them to [200ok.vc/founders](/founders).
 
