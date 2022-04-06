@@ -21,6 +21,7 @@
     "email-validator": "^2.0.4",
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
+    "magic-sdk": "^8.1.0",
     "marked": "^2.0.3",
     "node-fetch": "^2.6.1",
     "rollup": "^2.46.0"

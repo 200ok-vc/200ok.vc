@@ -2,9 +2,11 @@
 title: Founders Resources
 ---
 
-## Community Discord for Dev Tool Founders
+## Join our Community
 
-We are inviting devtool founders to join the [200 OK Community Discord](https://discord.gg/bNZpPMd2F6) where you can connect with fellow founders who are building the next-generation of developer tools and platforms.
+Join the [200 OK Community Discord](https://discord.gg/bNZpPMd2F6) where you can connect with fellow founders who are building the next-generation of developer tools and platforms.
+
+We've also created a [200 OK Twitter Community](https://twitter.com/i/communities/1511448690577313803), so feel free to check us out over there!
 
 ## VCs and Angels that Invest in Dev Tools
 
