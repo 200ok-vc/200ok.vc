@@ -54,7 +54,7 @@ let handler = async function (req) {
   // - url | string
   else {
     // store a record in our DB
-    await data.set({ table: "messages", key: req.body.email, ...req.body });
+    await data.set({ table: "messages", key: req.body.email, name: req.body.name, startup: req.body.startup, url: req.body.url });
     // ping Slack
     let message = {
       text: `name: ${req.body.name}\nemail: ${req.body.email}\nstartup: ${req.body.startup}\nurl: ${req.body.url}`,
