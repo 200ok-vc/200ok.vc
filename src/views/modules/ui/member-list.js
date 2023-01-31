@@ -1,13 +1,13 @@
-import Member from "./member.js";
-import Skill from "./item-skill.js";
+import Member from "./member.js"
+import Skill from "./item-skill.js"
 
 export default function Members(props) {
-  props = props || {};
-  let selectedSkills = props.selectedSkills || [];
+  props = props || {}
+  let selectedSkills = props.selectedSkills || []
   let members = (props.members || [])
     .sort(() => Math.random() - 0.5)
     .map((member) => Member({ member, selectedSkills }))
-    .join("");
+    .join("")
   let skills = (props.skills || [])
     .map((skill) =>
       Skill({
@@ -16,7 +16,7 @@ export default function Members(props) {
         selectedSkills,
       })
     )
-    .join("");
+    .join("")
   return `
   <div id=skill-list>
     ${skills}
@@ -29,5 +29,5 @@ export default function Members(props) {
   <div class=list>
     ${members}
   </div>
-  `;
+  `
 }

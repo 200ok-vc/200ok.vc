@@ -5,5 +5,5 @@ module.exports = function StartupComponent({ startups }) {
         <div class="startup"><a href="${s.Website}" title="${s.Name}"><img src="${s.Logo}" alt="${s.Name} logo"/></a></div>
         `
     )
-    .join("")}</div>`;
-};
+    .join("")}</div>`
+}
