@@ -1,5 +1,5 @@
 function script(source) {
-  return `<script src=${source} type=module crossorigin></script>`
+  return `<script src=${source} type=module crossorigin></script>`;
 }
 
 module.exports = function LayoutView({
@@ -40,5 +40,5 @@ module.exports = function LayoutView({
     ${scripts.map((s) => script(s))}
   </body>
   </html>  
-`
-}
+`;
+};

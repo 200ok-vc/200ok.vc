@@ -1,4 +1,4 @@
-let Layout = require("./layout")
+let Layout = require("./layout");
 
 module.exports = function MemberView({ member }) {
   let content = `<div id="member">
@@ -13,7 +13,7 @@ module.exports = function MemberView({ member }) {
               null,
               2
             )}</pre>
-        </div>`
-  let html = Layout({ content, title: member.full_name, social: member.photo })
-  return { html }
-}
+        </div>`;
+  let html = Layout({ content, title: member.full_name, social: member.photo });
+  return { html };
+};

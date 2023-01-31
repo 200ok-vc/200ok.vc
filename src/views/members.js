@@ -1,6 +1,6 @@
-let md = require("marked")
-let Layout = require("./layout")
-let MembersComponent = require("./components/members")
+let md = require("marked");
+let Layout = require("./layout");
+let MembersComponent = require("./components/members");
 
 let Template = function ({ membersComponent }) {
   return (
@@ -13,8 +13,8 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 
 <div class="cta"><a href="http://calendly.com/carter-rabasa">Book 👋 Call</a></div>`) +
     membersComponent
-  )
-}
+  );
+};
 
 module.exports = async function MembersView({
   members,
@@ -25,12 +25,12 @@ module.exports = async function MembersView({
     members,
     skills,
     selectedSkills,
-  })
-  let content = Template({ membersComponent })
+  });
+  let content = Template({ membersComponent });
   let html = Layout({
     title: "Members",
     content,
     scripts: ["modules/entry/members.js"],
-  })
-  return { html }
-}
+  });
+  return { html };
+};
