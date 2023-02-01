@@ -44,11 +44,13 @@
   {
     "Name": "Fission",
     "Portfolio": true,
+    "Website": "https://fission.codes",
     "Logo": "https://fission.codes/images/kit/logo-dark-colored.svg"
   },
   {
     "Name": "Abbot",
     "Logo": "https://bookface-images.s3.amazonaws.com/logos/dfbe25f6dcb383bd8e10f9cdaff1827f4f8e87a9.png",
+    "Website": "https://ab.bot/",
     "Portfolio": true
   }
 ]

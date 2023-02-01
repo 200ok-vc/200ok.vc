@@ -10,9 +10,9 @@ Our mission is to build a diverse and inclusive group of angel investors who car
 
 1. You are an [accredited investor](https://www.nerdwallet.com/blog/investing/what-is-an-accredited-investor/)
 2. You have worked in an operational role at an early stage dev tool startup
-3. You are willing to put in the time to talk to founders and participate on our monthly call
+3. You are willing to join our Discord and be a resource for founders who have questions
 
-<div class="cta"><a href="/members">Membership Info</a></div>
+<div class="cta"><a href="http://calendly.com/carter-rabasa">Book 👋 Call</a></div>
 
 ## 2) Join our Syndicate
 

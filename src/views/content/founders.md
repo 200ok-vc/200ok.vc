@@ -40,7 +40,7 @@ We set-up a "hello world" call, where we discuss 3 things:
 2. Your fundraising goals (amount, cap, timing, etc)
 3. What you need help with outside of fundraising
 
-Following the call we provide feedback on your demo and pointers to any people or resources that we think can help move you forward. If there's interest in investing, we work to make that happen quickly.
+Following the call we provide feedback on your demo and pointers to any people or resources that we think can help move you forward. 
 
 ### Are you willing to write bigger checks as a syndicate?
 
@@ -48,4 +48,4 @@ Sure! For founders who are not looking for strategic angels and would prefer a s
 
 ### Do you offer Advisory Services?
 
-We focus on making investments in startups and providing assistance alongside that investment. However, if you need more time from someone in our group, you should feel free to reach out to them and propose a formal advisory relationship. The [FAST](https://fi.co/fast) agreement from Founders Institute is a useful tool here.
+If you are looking for an advisor, please let us know. The [FAST](https://fi.co/fast) agreement from Founders Institute is a useful tool for setting something up.
