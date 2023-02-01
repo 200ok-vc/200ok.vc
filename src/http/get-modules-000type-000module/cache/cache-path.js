@@ -1,4 +1,4 @@
-const { join } = require("path");
+const { join } = require("path")
 
 module.exports = function cachePath(filename) {
   return join(
@@ -8,5 +8,5 @@ module.exports = function cachePath(filename) {
     "views",
     "modules",
     filename
-  );
-};
+  )
+}

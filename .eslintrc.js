@@ -26,4 +26,4 @@ module.exports = {
     "no-trailing-spaces": "error",
     "no-unused-vars": ["error", { args: "none" }],
   },
-};
+}

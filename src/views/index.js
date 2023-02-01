@@ -1,6 +1,6 @@
-let Layout = require("./layout");
-let MembersComponent = require("./components/members");
-let StartupsComponent = require("./components/startups");
+let Layout = require("./layout")
+//let MembersComponent = require("./components/members");
+let StartupsComponent = require("./components/startups")
 
 module.exports = function IndexView({ members, skills, startups }) {
   let content = /*html*/ `
@@ -17,16 +17,12 @@ module.exports = function IndexView({ members, skills, startups }) {
         <p>Our mission at 200 OK is to build an inclusive community of investors who believe in the power of developers and want to help the next generation of folks building tools that empower them. We have lots of options for folks to participate, everything from becoming a Member to joining our Syndicate to Sharing Deals.</p>
         <div class="cta"><a href="/investors">More Info for Investors</a></div>
     </section>
-    <section id="members">
-        <h1>Our Members</h1>
-        ${MembersComponent({ members })}
-    </section>
     <section id="startups">
         <h1>Our Portfolio</h1>
         <p>These are just some of the amazing startups that members in our group have invested in.</p>
         ${StartupsComponent({ startups })}
     </section>
-</article>`;
-  let html = Layout({ content, title: "Home" });
-  return { html };
-};
+</article>`
+  let html = Layout({ content, title: "Home" })
+  return { html }
+}
