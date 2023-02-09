@@ -8,6 +8,14 @@ Thank you for joining our merry little band of hacker investors! Here are the ne
 
 Please review our [Code of Conduct](/code-of-conduct). It's not just a list of what not to do, it's a good guide for the kind of engagement and assistance we expect all members to provide. We are building a _community of learning_ and we need everyone to contribute in order to make this happen.
 
+## 2) Fill-out a Profile
+
+Filling-out [this form](https://airtable.com/shrp2xBNqxkI9fpu8) helps us tailor the startups and deals that we notify you about.
+
+## 2) Join the Discord
+
+Our Discord server ([join](https://discord.gg/bNZpPMd2F6)) is where 100% of deals and important information will be shared. Email is something we only use sparingly.
+
 ## 2) Join the Syndicate
 
 When you're ready, there are two ways you can make investments: writing an individual check to a startup or by investing through a syndicate. A syndicate lets investors make smaller investments (minimum of $1000) that get pooled into a single, larger check for the startup.
